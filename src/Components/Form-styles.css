@@ -1,0 +1,158 @@
+.form-outer{
+    /* border: 1px solid red; */
+    height: 850px;
+    width: 100%;
+}
+
+.input-feilds{
+    margin-top: 50px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-rows: 15px 40px 45px;
+    grid-template-columns: 35% 35%;
+    gap: 20px 9%;
+
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 17px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  width: 45%;
+  height: 63%;
+  
+  background: hsla(210, 90%, 80%, 1);
+  background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9FCCFA", endColorstr="#0974F1", GradientType=1 );
+  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
+}
+
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+
+.text{
+    text-indent: 5px;
+}
+
+.get-image-btn{
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    
+    background: hsla(210, 90%, 80%, 1);
+    background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9FCCFA", endColorstr="#0974F1", GradientType=1 );
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+
+.get-image-btn:hover {
+    background: #0d45a5;
+  }
+
+.get-image-btn svg{
+    margin-right: 15px;
+}
+
+
+.image-div{
+    position: relative;
+    /* border: 1px solid red; */
+    margin-left: 10%;
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+
+.meme--image {
+
+    height: 70vh;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+    left: 10%;
+    /* transform: translateX(-50%); */
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.download-btn{
+    width: 25%;
+    margin-left: 35%;
+    height: 40px;
+    margin-top: 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    
+    background: hsla(210, 90%, 80%, 1);
+    background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9FCCFA", endColorstr="#0974F1", GradientType=1 );
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}

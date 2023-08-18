@@ -1,0 +1,32 @@
+.navigation-outer{
+    height: 70px;
+    width: 100%;
+    background: rgb(119,222,215);
+    background: linear-gradient(90deg, rgba(119,222,215,1) 0%, rgba(38,38,132,1) 0%, rgba(19,123,192,1) 74%, rgba(0,142,255,0.9697128851540616) 100%);
+
+    display: flex;
+    align-items: center;
+}
+
+.navigation-outer img{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 70px;
+    padding: 0;
+    margin-right: 15%;
+}
+
+.navigation-outer p{
+    font-size: 29px;
+    color: #f3d067;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(204,142,0),
+                 1px 0px 0 rgb(153,91,0),
+                 2px 0px 0 rgb(102,40,0),
+                 3px 0px 0 rgb(51,-11,0),
+                 4px 0px 0 rgb(0,-62,0),
+                 5px 0px  0 rgb(-51,-113,0),
+                 6px 0px 5px rgba(0,0,0,1),
+                 6px 0px 1px rgba(0,0,0,0.5),
+                 0px 0px 5px rgba(0,0,0,.2);
+}
